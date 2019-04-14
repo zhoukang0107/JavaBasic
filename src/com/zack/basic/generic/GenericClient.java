@@ -34,10 +34,7 @@ public class GenericClient {
         Box<? super Number> box3 = new Box<>();
         box3.setData(new Integer(1));  //? super Number限定了形参类型的下限为Number
         //box3.setData(new Object());  //error
-
         //? super T  参数类型的限制
-
-
     }
 
     public static void getUpperNumberData(Box<? extends Number> data){
